@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="ahrefs-site-verification" content="d4f9dad7299cd57e2578a6968224c640008e2257958e40ee4dcc15b4769c7b5b">
+    <title>Gargoyle</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/aos.min.css">
+    <link rel="stylesheet" href="css/intlTelInput.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Open+Sans:400,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <noscript>
+        Sorry, but you need to enable JavaScript to run this website.
+    </noscript>
+
+
+
+    <!-- cookie__consent -->
+    <div id="cookie__consent" class="cookie__consent">
+        <div class="cookie__container">
+            <picture>
+                <source srcset="img/cookie.webp" type='image/webp'>
+                <img src="img/cookie.png" alt="Gargoyle Cookies Image">
+            </picture>
+            <p> We use cookies to provide you with a better experience using our website. Check out our <br> <a href="privacy_policy.html" target="_blank">Privacy Policy</a> to learn more about what we collect
+                and use. </p>
+            <button id="cookie__confirm" class="cookie__confirm"><span>Confirm</span></button>
+        </div>
+    </div><!-- /cookie__consent -->
+
+
+
+    <!-- social__icons -->
+    <div id="social__icons"></div><!-- /social__icons -->
+
+
+
+    <!-- bg__modal -->
+    <div id="bg__modal" class="bg__modal">
+        <div class="modal__content">
+            <span id="close__x"></span>
+            <div class="contact__form">
+                <div id="block__form" class="form">
+                    <h2>We are <span class="gradient">gargoyles</span></h2>
+                    <p>and we are ready to accept new challenge today</p>
+
+                    <form id="form" method="POST" action="javascript:void(0);" novalidate>
+                        <span id="name__error" class="name__error">This field is required</span>
+                        <input id="name" type="text" placeholder="Name *" maxlength="200" autocomplete="off">
+                        <br>
+                        <span id="company__error" class="company__error">This field is required</span>
+                        <input id="company" type="text" placeholder="Company *" maxlength="200" autocomplete="off">
+                        <br>
+                        <div class="input__select">
+                            <span id="select__error" class="select__error">This field is required</span>
+                            <select id="user__contact" class="user__contact" required>
+                                <option value="" disabled selected>Choose *</option>
+                                <option value='phone'>Phone</option>
+                                <option value='email'>Email</option>
+                            </select>
+                            <span id="custom__error" class="custom__error">This field is required</span>
+                            <input id="custom__input" class="custom__input show__input" type="text" maxlength="254" autocomplete="off">
+                        </div>
+
+
+                        <div class="input__img">
+                            <input id="message" class="mb-pdr-modification" type="text" placeholder="Message (optional)" autocomplete="off" maxlength="1000">
+                            <input id="file" type="file" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
+                            <span id="clip" class="clip" data-tooltip=".xlsx, .xls, image/*, .doc, .docx, .ppt, .pptx, .txt, .pdf, .zip, .rar (max size is 25MB)"></span>
+                            <span id="file__show" class="file__show"></span>
+                            <span id="remove__file" class="remove__file"></span>
+                            <br>
+                        </div>
+
+                        <div class="block__check">
+                            <span id="checkbox__error" class="checkbox__error">Privacy Policy consent is required</span>
+                            <input type="checkbox" id="check__status" class="checkmark">
+                            <span>I accept your <a href="privacy_policy.html" target="_blank">Privacy Policy *</a><br></span>
+                        </div>
+
+                        <input id="send__data" type="submit" name="submit" value="Get In Touch">
+                    </form>
+
+                </div>
+
+                <div id="answer__section" class="answer__section">
+                    <div class="answer__inner">
+                        <h2>Awesome</h2>
+                        <p>We will connect with you soon</p>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /modal__content -->
+    </div><!-- /bg__modal -->
+
+
+
+    <!-- header -->
+    <header id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="logo"><span class="gradient">G</span>argoyle</div>
+                <nav id="nav__bar" class="nav">
+                    <ul>
+                        <li><a class="nav__link active" href="#intro" data-scroll="#intro">Home</a></li>
+                        <li><a class="nav__link" href="#portfolio" data-scroll="#portfolio">Cases</a></li>
+                        <li><a class="nav__link" href="#testimonials" data-scroll="#testimonials">Reviews</a></li>
+                        <li><a class="nav__link" href="#experts" data-scroll="#experts">Team</a></li>
+                        <li><a id="link__contact" class="nav__link" href="#contact_us">Contact Us</a></li>
+                    </ul>
+
+                    <div id="nav__footer">
+                        <div class="social social--footer social-modification">
+
+                            <a class="social__item" href="https://www.facebook.com/gargoyleagency/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social__item" href="https://twitter.com/gargoyleagency/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social__item" href="https://www.instagram.com/gargoyleagency/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#instagram"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social__item" href="https://www.linkedin.com/company/gargoyle-agency/about/" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+
+                        <div class="copyright__text copyright-modification">
+                            ©2020 Gargoyle Agency. All rights reserved.
+                        </div>
+
+                    </div>
+
+                </nav>
+                <button id="nav__toggle" class="burger burger-mod" type="button">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+            </div>
+        </div><!-- /container -->
+        <div id="progress__container" class="progress__container"></div>
+    </header><!-- /header -->
+
+
+
+    <!-- intro -->
+    <div id="intro" class="intro">
+        <canvas id="intro__canvas" class="intro__canvas"></canvas>
+        <div class="intro__container">
+            <div class="container">
+                <h1><span class="gradient">A</span>rtificial <span class="gradient">i</span>ntelligence
+                    <br>
+                    <span>for business</span></h1>
+                <p>Upgrade your company to the next stage and unleash the creative and innovative potential</p>
+                <button id="btn" class="btn">Contact Us</button>
+            </div>
+        </div>
+    </div><!-- /intro -->
+
+
+
+    <!-- portfolio -->
+    <div id="portfolio" class="portfolio container">
+        <div class="portfolio__container">
+            <h1>We are <span class="gradient">creators</span></h1>
+            <p>of brand new innovative approaches for business</p>
+            <div id="masonry" class="portfolio__masonry">
+
+                <div class="card card-1">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Decision making with big data analytics</h2>
+                        </div>
+                        <div class="card__img first__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">79</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Accelerated big data crawling, scraping, parsing and processing time</p>
+                    </div>
+                </div>
+
+                <div class="card card-2">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Financial accounting automation in international trade</h2>
+                        </div>
+                        <div class="card__img second__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">91</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Increased financial documents processing and digitalization time</p>
+                    </div>
+                </div>
+
+                <div class="card card-3">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Advertising powered by artificial intelligence</h2>
+                        </div>
+                        <div class="card__img third__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">56</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Increased overall company revenue from the advertisement department</p>
+                    </div>
+                </div>
+
+                <div class="card card-4">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Financial fraud detection in banking</h2>
+                        </div>
+                        <div class="card__img fourth__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">37</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Minimized financial risk of illegal intentions to prevent the business</p>
+                    </div>
+                </div>
+
+                <div class="card card-5">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Cell distortion recognition in clinical trials</h2>
+                        </div>
+                        <div class="card__img fifth__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">67</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Accelerated video processing and analysis time of the genetic samples</p>
+                    </div>
+                </div>
+
+                <div class="card card-6">
+                    <div class="card__item">
+                        <div class="card__block">
+                            <h2 class="card__header" data-aos="fade-up" data-aos-easing="ease" data-aos-duration="1500">
+                                Logistic reports automation in shopping malls
+                            </h2>
+                        </div>
+                        <div class="card__img sixth__bg"></div>
+                    </div>
+                    <div class="card__text">
+                        <div class="group">
+                            <span class="percent__number counter" data-counter-time="1000" data-counter-delay="10">34</span>
+                            <span class="percent__char">%</span>
+                        </div>
+                        <p>Improved internal shopping mall logistics, allocation, and warehousing</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div><!-- /portfolio -->
+
+
+
+    <!-- testimonials -->
+    <div id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials__container">
+                <h1>We are <span class="gradient">associates</span></h1>
+                <p>for anybody who respect productive cooperation</p>
+                <div class="testimonials__block">
+                    <div id="testimonial__slider" class="testimonial__slider">
+
+                        <div class="testimonial__slide">
+                            <div class="image__container first__testimonial">
+                                <button class="js-modal-btn overflow__button" data-video-id="Rt6vY1SsKVM"></button>
+                            </div>
+
+                            <div class="testimonial__text">
+                                <h2 class="name">Thomas Spycher</h2>
+                                <h3 class="company__name">Novalytica</h3>
+                                <p class="quote__text"><img class="quotes" src="img/quotes.svg" alt="quotes"> We
+                                    worked with Gargoyle in the area of data infrastructure: data collection, data
+                                    cleaning and overall we had a very good experience.</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="image__container second__testimonial">
+                                <button class="js-modal-btn overflow__button" data-video-id="o7YjMV_s3JY"></button>
+                            </div>
+
+                            <div class="testimonial__text">
+                                <h2 class="name">Charlotte Bax</h2>
+                                <h3 class="company__name">Captur</h3>
+                                <p class="quote__text"><img class="quotes" src="img/quotes.svg" alt="quotes"> I am
+                                    super impressed with the response time and the quality of work, so I definitely
+                                    going to work with Gargoyle and refer them to anyone else.</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="image__container third__testimonial">
+                                <button class="js-modal-btn overflow__button" data-video-id="adS46k6w4zA"></button>
+                            </div>
+
+                            <div class="testimonial__text">
+                                <h2 class="name">Sachin Kumar</h2>
+                                <h3 class="company__name">Simplifai Labs</h3>
+                                <p class="quote__text"><img class="quotes" src="img/quotes.svg" alt="quotes">All the
+                                    efforts the Gargoyle puts together are basically between a good understanding of the
+                                    project and great professional skills.</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="image__container fourth__testimonial">
+                                <button class="js-modal-btn overflow__button" data-video-id="NL_7hwpFlyQ"></button>
+                            </div>
+
+                            <div class="testimonial__text">
+                                <h2 class="name">Daniel Thomas</h2>
+                                <h3 class="company__name">Mojo Diagnostics</h3>
+                                <p class="quote__text"><img class="quotes" src="img/quotes.svg" alt="quotes">We had
+                                    the pleasure of working with Gargoyle on the web application and artificial
+                                    intelligence. I would like to recommend with confidence work with this team.</p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial__slide">
+                            <div class="image__container fifth__testimonial">
+                                <button class="js-modal-btn overflow__button" data-video-id="oLft3Yhy7j0"></button>
+                            </div>
+
+                            <div class="testimonial__text">
+                                <h2 class="name">Aleksandar Cvjetic</h2>
+                                <h3 class="company__name">Oreon Telekom</h3>
+                                <p class="quote__text"><img class="quotes" src="img/quotes.svg" alt="quotes">One of
+                                    the most remarkable things during our cooperation is, actually, clear
+                                    communications. I always knew what should be done next and how it should be done.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div><!-- /testimonial__slider -->
+
+                    <div id="testimonials__items" class="testimonials__items">
+
+                        <div class="item">
+                            <picture>
+                                <source srcset="img/testimonials/ThomasSpycher.webp" type="image/webp">
+                                <img class="testimonial__img" src="img/testimonials/ThomasSpycher.png" alt="Thomas Spycher Gargoyle">
+                            </picture>
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source srcset="img/testimonials/CharlotteBax.webp" type="image/webp">
+                                <img class="testimonial__img" src="img/testimonials/CharlotteBax.png" alt="Charlotte Bax Gargoyle">
+                            </picture>
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source srcset="img/testimonials/SachinKumar.webp" type="image/webp">
+                                <img class="testimonial__img" src="img/testimonials/SachinKumar.png" alt="Sachin Kumar Gargoyle">
+                            </picture>
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source srcset="img/testimonials/AleksandarCvjetic.webp" type="image/webp">
+                                <img class="testimonial__img" src="img/testimonials/AleksandarCvjetic.png" alt="Aleksandar Cvjetic Gargoyle">
+                            </picture>
+                            <img class="testimonial__img" src="img/testimonials/DanielThomas.png" alt="Daniel Thomas Gargoyle">
+                        </div>
+
+                        <div class="item">
+                            <picture>
+                                <source srcset="img/testimonials/AleksandarCvjetic.webp" type="image/webp">
+                                <img class="testimonial__img" src="img/testimonials/AleksandarCvjetic.png" alt="Aleksandar Cvjetic Gargoyle">
+                            </picture>
+                        </div>
+
+                    </div><!-- /testimonials__items -->
+
+                    <div class="testimonials__pagination">
+                        <span id="testimonial__prev" class="arrow__prev prev-mod"></span>
+                        <span id="testimonial__next" class="arrow__next next-mod"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div><!-- /container -->
+    </div><!-- /testimonials -->
+
+
+
+    <!-- experts -->
+    <div id="experts" class="experts">
+        <div class="container">
+            <div class="experts__container">
+                <h1>We are <span class="gradient">experts</span></h1>
+                <p>in different fields of knowledge at information technology</p>
+                <div class="experts__inner">
+
+                    <div class="expert__item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
+                        <a class="expert__link" href="https://www.linkedin.com/in/andrew-demchenko/" target="_blank">
+                            <span class="border__animation"></span>
+                            <picture>
+                                <source srcset="img/experts/AndrewDemchenko.webp" type="image/webp">
+                                <img class="expert__photo" src="img/experts/AndrewDemchenko.png" alt="Andrew Demchenko Gargoyle">
+                            </picture>
+                            <div class="expert__name">Andrew Demchenko</div>
+                            <div class="expert__position">Chief Executive Officer</div>
+                            <div class="social__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="expert__item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-delay="300">
+                        <a class="expert__link" href="https://www.linkedin.com/in/maria-demchenko/" target="_blank">
+                            <span class="border__animation"></span>
+                            <picture>
+                                <source srcset="img/experts/MariaDemchenko.webp" type="image/webp">
+                                <img class="expert__photo" src="img/experts/MariaDemchenko.png" alt="Maria Demchenko Gargoyle">
+                            </picture>
+                            <div class="expert__name">Maria Demchenko</div>
+                            <div class="expert__position">Chief Operating Officer</div>
+                            <div class="social__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="expert__item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-delay="600">
+                        <a class="expert__link" href="https://www.linkedin.com/in/kirill-kiyko/" target="_blank">
+                            <span class="border__animation"></span>
+                            <picture>
+                                <source srcset="img/experts/KirillKiyko.webp" type="image/webp">
+                                <img class="expert__photo" src="img/experts/KirillKiyko.png" alt="Kirill Kiyko Gargoyle">
+                            </picture>
+                            <div class="expert__name">Kirill Kiyko</div>
+                            <div class="expert__position">Chief Technical Officer</div>
+                            <div class="social__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="expert__item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800" data-aos-delay="900">
+                        <a class="expert__link" href="https://www.linkedin.com/in/kate-parshyna/" target="_blank">
+                            <span class="border__animation"></span>
+                            <picture>
+                                <source srcset="img/experts/KateParshyna.webp" type="image/webp">
+                                <img class="expert__photo" src="img/experts/KateParshyna.png" alt="Kate Parshyna Gargoyle">
+                            </picture>
+
+                            <div class="expert__name">Kate Parshyna</div>
+                            <div class="expert__position">Chief Innovative Officer</div>
+                            <div class="social__item">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linkedin"></use>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+
+                </div><!-- /experts__inner -->
+            </div><!-- /experts__container -->
+        </div><!-- /container -->
+    </div><!-- /experts -->
+
+
+    <!-- contact us -->
+    <div id="contact__us" class="contact__us">
+        <div class="container">
+            <div class="form__home">
+                <h1>We are <span class="gradient">gargoyles</span></h1>
+                <p>and we are ready to accept new challenge today</p>
+                <div id="block__form__home" class="form">
+
+                    <form id="form__second" method="POST" action="javascript:void(0);" novalidate>
+                        <span id="name__home__error" class="name__home__error">This field is required</span>
+                        <input id="name__home" type="text" placeholder="Name *" maxlength="200" autocomplete="off" required><br>
+                        <span id="company__home__error" class="company__home__error">This field is required</span>
+                        <input id="company__home" type="text" placeholder="Company *" maxlength="200" autocomplete="off" required><br>
+
+                        <div class="input__select">
+                            <span id="select__home__error" class="select__home__error">This field is required</span>
+                            <select id="user__contact__home" class="user__contact__home" required>
+                                <option value="" disabled selected>Choose *</option>
+                                <option value='phone'>Phone</option>
+                                <option value='email'>Email</option>
+                            </select>
+
+                            <span id="custom__home__error" class="custom__home__error">This field is required</span>
+                            <input id="custom__input__home" class="custom__input__home" type="text" maxlength="254" autocomplete="off">
+
+                        </div>
+
+                        <div class="input__img">
+                            <input id="message__home" class="mb-pdr-modification" type="text" placeholder="Message (optional)" autocomplete="off">
+                            <input id="file__home" type="file" accept=".xlsx,.xls,image/*,.doc, .docx,.ppt, .pptx,.txt,.pdf" />
+                            <span id="clip__home" class="clip__home" data-tooltip=".xlsx, .xls, image/*, .doc, .docx, .ppt, .pptx, .txt, .pdf, .zip, .rar (max size is 25MB)"></span>
+                            <span id="file__show__home" class="file__show__home"></span>
+                            <span id="remove__file__home" class="remove__file__home"></span>
+                            <br>
+                        </div>
+
+                        <div class="block__check">
+                            <span id="checkbox__home__error" class="checkbox__home__error">Privacy Policy consent is required</span>
+                            <input type="checkbox" id="check__status__home" class="checkmark__home">
+                            <span>I accept your <a href="privacy_policy.html" target="_blank">Privacy Policy</a><br></span>
+                        </div>
+
+                        <input id="send__data__home" type="submit" name="submit" value="Get In Touch">
+                    </form>
+
+                </div>
+            </div>
+        </div><!-- /container -->
+    </div><!-- /contact us -->
+
+
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__block">
+                    <div class="social social--footer">
+
+                        <a class="social__item" href="https://www.facebook.com/gargoyleagency/" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="https://twitter.com/gargoyleltd" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="https://www.instagram.com/gargoyleltd/" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#instagram"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="https://www.linkedin.com/company/gargoyleltd/?viewAsMember=true" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linkedin"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                    <div class="copyright__text">
+                        ©2020 Gargoyle. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        </div><!-- /container -->
+    </footer><!-- /footer -->
+
+
+    <!-- script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134271097-1"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/intlTelInput-jquery.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
+    <script src="js/jquery-modal-video.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/aos.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/slider.min.js"></script>
+    <script src="js/cookie.min.js"></script>
+    <script src="js/icons.min.js"></script>
+    <script src="js/canvas.min.js"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'UA-134271097-1');
+
+        $('.counter').countUp();
+
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+
+        window.addEventListener('load', AOS.refresh);
+
+        $('.js-modal-btn').modalVideo();
+    </script>
+    <!-- /script -->
+</body>
+
+</html>
